@@ -9,9 +9,6 @@ begin
     write('Input a three-digit hex number: ');
     readln(hex_string);
 
-    // expect 7, 15, 11
-    writeln(ord(hex_string[1])-ord('0'), ord(hex_string[2])-ord('0'), ord(hex_string[3])-ord('0'));
-
     for counter := 1 to 3 do 
         if ord(hex_string[counter]) - ord('0') < 9 then 
             begin
